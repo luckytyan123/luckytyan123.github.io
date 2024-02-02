@@ -1,0 +1,27 @@
+body { background: #090c0f; }
+
+h1 { font-size: 48px; }
+
+a { text-decoration: none; }
+
+p { margin-bottom: 0; }
+
+.header-container { background-image: url("../img/header-background.png"); background-repeat: no-repeat; background-size: cover; width: 100%; }
+.header-container .main-header h1.title { padding: 25px 0; color: #fff; }
+.header-container .main-header .nav.links { margin-top: 40px; }
+.header-container .main-header .nav.links .nav-item { letter-spacing: 2px; padding: 0 25px; font-size: 24px; }
+.header-container .main-header .nav.links .nav-item .nav-link { padding: 0; color: #fff; }
+.header-container .main-header .nav.links .nav-item:last-child { padding-right: 0; }
+.header-container .introduction-container { margin-top: 100px; align-items: center; justify-content: center; display: flex; }
+.header-container .introduction-container .picture { text-align: center; margin-right: 100px; }
+.header-container .introduction-container .picture .profile { width: 300px; height: 300px; }
+.header-container .introduction-container .introduction p { color: #dedede; font-size: 36px; line-height: 46px; font-family: "Merriweather"; font-weight: 300; }
+.header-container .introduction-container .introduction p.name { font-family: "Lato"; font-weight: 700; font-size: 64px; line-height: 74px; color: #fff; }
+.header-container .introduction-container .introduction p.specialization { line-height: 58px; font-weight: 300; }
+.header-container .introduction-container .introduction p.specialization strong { font-size: 48px; color: #fff; }
+.header-container .advertisement-container { margin-top: 80px; }
+.header-container .advertisement-container .advertisements { display: flex; align-items: center; justify-content: space-evenly; }
+.header-container .advertisement-container .advertisements .advertisement { color: #fff; text-align: center; font-family: 'Lato'; }
+.header-container .advertisement-container .advertisements .advertisement .circle { border: 1px solid #fff; display: inline-block; padding: 18px; border-radius: 50%; }
+.header-container .advertisement-container .advertisements .advertisement p { font-size: 22.5px; margin-top: 24px; font-weight: 300; }
+.header-container .advertisement-container .advertisements .advertisement p.title { font-size: 36px; font-weight: 400; }
